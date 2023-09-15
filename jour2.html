@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Jour1</title>
+</head>
+<style>
+    body{
+        background-color: aquamarine;
+    }
+</style>
+<!--structure en respectant les bonne pratique-->
+<body>
+    <header>
+        <div class="list">
+            <nav>
+                <h2>Liste ordonnée</h2>
+                <ol>
+                    <li>Élément 1</li>
+                    <li>Élément 2</li>
+                    <li>Élément 3</li>
+                </ol>
+                <h2>Liste non ordonnée</h2>
+                <ul>
+                    <li>Élément A</li>
+                    <li>Élément B</li>
+                    <li>Élément C</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <article>
+            <img width="320" height="240" src="https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_960_720.jpg" alt="image de nature pour l'exemple"><br>
+            <video width="320" height="240" controls>
+            <source src="https://cdn.discordapp.com/attachments/1001624599018094592/1005151377296728084/IMG_6852.mp4" type="video/mp4" alt="petite vidéo">
+            </video>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Colonne 1</th>
+                        <th>Colonne 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <th>oui</th>
+                    <th>non</th>
+                </tbody>
+                <tfoot>
+                    <th>fin</th>
+                    <th>fin</th>
+                </tfoot>
+            </table>
+                <h2 id="section1">Section 1</h2>
+                <a href="#section1">Aller à la Section 1</a>
+                <a href="https://github.com/">Aller sur github</a>
+                <strong>oui</strong><br>
+                <em>oui</em><br>
+                <blockquote>oui</blockquote><br>
+                <code>oui</code><br>
+                <abbr>oui</abbr><br>
+        </article>
+        <aside>
+            <form>
+                <input name="texte" type="text">
+                <input name="mdp" type="password">
+                <input name="button" type="button">
+                <input name="checkbox" type="checkbox">
+                <input name="radio" type="radio">
+                <input name="soumission" type="submit">
+            </form>
+            <p id="mon-id">salut</p>
+        </aside>
+    </main>
+    <footer>
+
+    </footer>
+    <script>  
+        document.addEventListener("DOMContentLoaded", () => {alert("page charger!");});
+    </script>
+</body>
+</html>

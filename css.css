@@ -1,0 +1,19 @@
+p {
+    color: blue;
+}
+
+.list {
+    font-weight: bold;
+}
+
+#mon-id {
+    background-color: yellow;
+}
+
+input[type="text"] {
+    border: 1px solid gray;
+}
+
+a:hover {
+    color: red;
+}
